@@ -1,0 +1,12 @@
+{
+  "min_support": 706,
+  "k": 80,
+  "lam": 50.0,
+  "min_neighbors": 5,
+  "tag_weight": 1,
+  "fusion": "rrf",
+  "alpha": 0.75,
+  "pop_weight": 0.2,
+  "support_rate": 0.003514526710402999,
+  "calibration_min_support": 30
+}

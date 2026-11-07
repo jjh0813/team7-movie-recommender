@@ -1,0 +1,64 @@
+{
+  "selection_source": "32M recent temporal validation only",
+  "validation_audits": [
+    {
+      "no_history": 2052,
+      "no_supported_history": 6,
+      "no_relevant": 1069,
+      "seen_positives_excluded": 0,
+      "positive_outside_catalog": 28215,
+      "eligible_users": 3780,
+      "year": 2022,
+      "source": "ML32M only",
+      "evaluated_users": 600,
+      "cutoff_utc": "2022-01-01 00:00:00+00:00",
+      "target_end_utc": "2022-07-01 00:00:00+00:00",
+      "reference_users": 193618,
+      "reference_ratings": 30293045,
+      "tag_max_before_cutoff": true,
+      "cf_min_support": 680
+    },
+    {
+      "no_history": 2097,
+      "no_supported_history": 1,
+      "no_relevant": 980,
+      "seen_positives_excluded": 0,
+      "positive_outside_catalog": 26417,
+      "eligible_users": 3730,
+      "year": 2023,
+      "source": "ML32M only",
+      "evaluated_users": 600,
+      "cutoff_utc": "2023-01-01 00:00:00+00:00",
+      "target_end_utc": "2023-07-01 00:00:00+00:00",
+      "reference_users": 197529,
+      "reference_ratings": 31206150,
+      "tag_max_before_cutoff": true,
+      "cf_min_support": 694
+    }
+  ],
+  "searched_configs": 48,
+  "objective": "equal-period mean NDCG@10, then Recall@10; no Beliefs selection",
+  "best": {
+    "fusion": "rrf",
+    "alpha": 0.85,
+    "pop_weight": 0.1,
+    "recall_2022": 0.08734609190996731,
+    "ndcg_2022": 0.09913233282194746,
+    "recall_2023": 0.07985013913313675,
+    "ndcg_2023": 0.10148336421662595,
+    "mean_recall": 0.08359811552155202,
+    "mean_ndcg": 0.1003078485192867
+  },
+  "intermediate_validation": {
+    "fusion": "rrf",
+    "alpha": 0.75,
+    "pop_weight": 0.2,
+    "recall_2022": 0.08591602990373116,
+    "ndcg_2022": 0.09571232166541696,
+    "recall_2023": 0.07924582089798371,
+    "ndcg_2023": 0.09776893331641065,
+    "mean_recall": 0.08258092540085743,
+    "mean_ndcg": 0.0967406274909138
+  },
+  "external_outcomes_read_by_this_script": false
+}

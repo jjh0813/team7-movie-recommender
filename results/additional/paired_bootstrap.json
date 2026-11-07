@@ -1,0 +1,14 @@
+{
+  "recall_at_10": {
+    "mean_difference": 0.0009887219939740627,
+    "ci95_low": -0.0034124636345213336,
+    "ci95_high": 0.005367921416271387,
+    "bootstrap_replicates": 2000
+  },
+  "ndcg_at_10": {
+    "mean_difference": 0.003513785296171256,
+    "ci95_low": 0.000718982691112811,
+    "ci95_high": 0.006313868600426745,
+    "bootstrap_replicates": 2000
+  }
+}

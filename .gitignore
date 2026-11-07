@@ -1,0 +1,10 @@
+/data/
+/added_data/
+/experiments/cache/
+/results/current/
+.venv/
+__pycache__/
+*.pkl
+*.zip
+*per_user.csv
+/results/recommendations_*.csv

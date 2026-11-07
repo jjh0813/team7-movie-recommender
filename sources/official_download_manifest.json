@@ -1,0 +1,41 @@
+{
+  "ml-32m.zip": {
+    "url": "https://files.grouplens.org/datasets/movielens/ml-32m.zip",
+    "bytes": 238950008,
+    "sha256": "e4a68655d7386b8f95f2f2424b2ff975dfdd15ffd59e0d864a14dca43e99d6ee",
+    "members": [
+      "ml-32m/",
+      "ml-32m/tags.csv",
+      "ml-32m/links.csv",
+      "ml-32m/README.txt",
+      "ml-32m/checksums.txt",
+      "ml-32m/ratings.csv",
+      "ml-32m/movies.csv"
+    ]
+  },
+  "ml_belief_2024_data_release_2.zip": {
+    "url": "https://files.grouplens.org/datasets/movielens/ml_belief_2024_data_release_2.zip",
+    "bytes": 122050556,
+    "sha256": "d63355b0a7a993a49119c63b81b740fa2fa563e562964387361c8228bb82b709",
+    "members": [
+      "data_release/",
+      "__MACOSX/._data_release",
+      "data_release/.Rhistory",
+      "__MACOSX/data_release/._.Rhistory",
+      "data_release/belief_data.csv",
+      "__MACOSX/data_release/._belief_data.csv",
+      "data_release/ratings_for_additional_users.csv",
+      "__MACOSX/data_release/._ratings_for_additional_users.csv",
+      "data_release/movie_elicitation_set.csv",
+      "__MACOSX/data_release/._movie_elicitation_set.csv",
+      "data_release/user_recommendation_history.csv",
+      "__MACOSX/data_release/._user_recommendation_history.csv",
+      "data_release/README.txt",
+      "__MACOSX/data_release/._README.txt",
+      "data_release/movies.csv",
+      "__MACOSX/data_release/._movies.csv",
+      "data_release/user_rating_history.csv",
+      "__MACOSX/data_release/._user_rating_history.csv"
+    ]
+  }
+}
